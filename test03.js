@@ -1,5 +1,6 @@
 //Operator 
-// Arithmetic Operator คำนวนตัวเลข + - * / %
+// Arithmetic Operator คำนวนตัวเลข + - * / % **
+console.log (2 ** 5)
 console.log(20 % 2) //หารเอาเศษ
 console.log(2 % 20)
 console.log(0 % 500)
@@ -16,6 +17,7 @@ console.log('Sombat' < 'Somjai') //true
 console.log('Bangna' >= 'Bangpoo') //false
 
 //Logical Opeartor ตรรกะ ! (not) , & (and), || (or)
+//ข้อมูลที่จะใช้มีแค่ 
 console.log (!true) //false
 console.log (!false) //true
 
@@ -42,3 +44,12 @@ data2++
 ++data2
 data2++
 console.log(data2) //13
+
+//nullist coalescing oprator ?? ใช้ตรวจสอบค่า nall หรือ underfined
+let aa = null
+let bb 
+let cc = 'DTI-SAU'
+console.log('-------------')
+console.log(aa ?? 'Hello')
+console.log(bb ?? 'H1')
+console.log(cc ?? 'Hey')
